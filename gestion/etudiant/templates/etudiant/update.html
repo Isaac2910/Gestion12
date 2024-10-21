@@ -1,0 +1,17 @@
+{%extends 'etudiant/base.html'%}
+{%block content %}
+
+<div class="row">
+    <div class="col-sm-8">
+        <h4 class="">Modifier les infos d'un etudiant </h4>
+        <form action="" method="post">
+            {% csrf_token%}
+            {{form.as_p}}
+            <input type="submit" class="btn btn-success" value="Modifier">
+            <a href="{% url 'addandshow'%}" class=" btn btn-info">Retour </a>
+        </form>
+
+    </div>
+</div>
+
+{%endblock content%} 

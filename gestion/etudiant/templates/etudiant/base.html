@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+ {%load static%}
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Etudiant</title>
+    <link rel="stylesheet" href="{%static 'etudiant/css/bootstrap.css'%}">
+ </head>
+ <body>
+    <div class="container m-5">
+        <h2 class="text-center alert alert-danger">Fonction CRUD</h2>
+        {% block content%}{% endblock content%}
+    </div>
+    <script src="{%static 'etudiant/js/jquery.js'%}"></script>
+    <script src="{%static 'etudiant/js/bootstrap.js'%}"></script>
+    <script src="{%static 'etudiant/js/popper.js'%}"></script>
+
+
+
+    
+ </body>
+ </html>
