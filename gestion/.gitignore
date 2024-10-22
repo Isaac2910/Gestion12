@@ -1,2 +1,5 @@
 gest
-db.sqlite3
+
+.idea
+*.sqlite3
+__pycache__/
